@@ -1,4 +1,5 @@
 # attack_lab
+see assignment details at attacklab.pdf
 
 ## phase 1 solution
 ```
