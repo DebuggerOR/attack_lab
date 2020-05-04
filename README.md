@@ -1,6 +1,6 @@
 # attack_lab
-see assignment details at attacklab.pdf.
-see guide at https://github.com/magna25/Attack-Lab/.
+See assignment details at attacklab.pdf.
+See guide at https://github.com/magna25/Attack-Lab/.
 
 ## phase 1 solution
 ```
