@@ -1,5 +1,6 @@
 # attack_lab
-see assignment details at attacklab.pdf
+see assignment details at attacklab.pdf.
+see guide at https://github.com/magna25/Attack-Lab/blob/master.
 
 ## phase 1 solution
 ```
