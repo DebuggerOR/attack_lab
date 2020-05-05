@@ -3,7 +3,7 @@ See assignment details at attacklab.pdf.
 See guide at https://github.com/magna25/Attack-Lab/.
 See also steps of phase5 at https://stackoverflow.com/questions/54602292/segmentation-fault-in-attack-lab-phase5.
 
-.## Phase 1 Solution
+## Phase 1 Solution
 ```
 // 40 bytes
 00 00 00 00 00 00 00 00
